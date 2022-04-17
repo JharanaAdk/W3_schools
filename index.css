@@ -403,67 +403,49 @@ img:hover{
 /* <!-- Exercises and quizzes section --> */
 
 /* Sachin */
-.image h1{
-    text-align: center;
-    font-size: 45px;
-    font-weight: 700;
-    padding: 30px;
-}
-.image h4{
-    text-align: center;
-    font-size: 30px;
-    padding: 30px;
-}
-.image{
+.setimage{
     background-color: #E7E9EB;
-    width: 100%;
-    height: 800px;
+    height: 600px;
 }
-.image img{
-    width: 70%;
-    margin: 16px 0 20px 0;
+.setimage h3{
+    text-align: center;
+}
+.setimage img{
     display: block;
     margin: auto;
 }
-.btn{
+.setimage h1{
+    margin: 0;
+}
+.setimage .btn{
     text-decoration: none;
-    background-color: #282A35;
-    color: white;
-    font-size: 18px;
     display: block;
     margin: auto;
     text-align: center;
     width: 300px;
     border-radius: 25px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.getstarted{
-    width: 100%;
-    height: 400px;
-    background-color: #282A35;
-}
-.getstarted h1{
-    color: #FFC0C7;
-    font-size: 50px;
-    padding: 30px;
-}
-.getstarted p{
- color: #FFC0C7;
- font-size: 40px;
- padding: 30px;
-}
-.getstarted .button{
-    width: 200px;
-    text-decoration: none;
-    background-color: #4CAF50;
     color: white;
+    background-color: #282A35;
+    padding: 20px;
+}
+.kickstart{
+    background-color: #282A35;
+    color: pink;
+    height: 600px;
+    position: relative;
+}
+.kickstart .btn{
+    text-decoration: none;
+    color: white;
+    background-color: #04AA6D;
     border-radius: 25px;
-    display: block;
-    text-align: center;
-    padding: 25px;
-   
+    padding: 15px;
+    position: absolute;
+    
+    top: 30%;
+}
+.kickstart h1, .btn{
+    margin-left:15px;
 }
 .foot::after{
     content: "";
