@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -252,70 +255,208 @@ form button{
     color: #41c779;
 }
 
+<<<<<<< HEAD
 /* Vandana */
 
 /* Sachin */
 .image h1{
+=======
+
+
+/*  <!-- color picker section --> */
+
+.con{
+    background-color: #F3ECEA;
+    color: #000;
+    padding-top: 78px;
+    padding-bottom: 95px;
+    font-family: 'Source Sans Pro', sans-serif;
+>>>>>>> 3d03396ec36968ee3e63eddebd8cc1109c5bd124
     text-align: center;
-    font-size: 45px;
+}
+.con h1{
+    font-size: 65px;
     font-weight: 700;
-    padding: 30px;
+    
 }
-.image h4{
+.content h4{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.con img{
+    width: 150px;
+    height: 128px;
+    margin-top: 16px;
+}
+img:hover{
+    opacity: 0.6;
+}
+/*  <!-- color picker section --> */
+
+
+
+/*  <!-- play game section --> */
+.game{
+    padding: 40px 0px;    
+    background-color: #96D4D4!important;
+  
+}
+.codeGame{
+    padding: 3%;
     text-align: center;
-    font-size: 30px;
-    padding: 30px;
+    color: black!important;
+    display: block;
+    
 }
-.image{
+.codeGame h1{
+    font-size: 60px;
+    font-family: 'Freckle Face', cursive;
+    margin: 2px 0 -20px 0 !important;
+}
+.codeGame h2{
+    font-size: 32px;
+    font-family: 'Freckle Face', cursive;
+    margin: 25px 0px;
+}
+.codeGame .button{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 8px 16px 10px 16px;
+    border-radius: 25px;
+    background-color: #282A35;
+    margin:auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 200px;
+}
+
+.button:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.codeGame img{
+    width: 120px;
+    height: 200px;
+    margin-top: 12px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.codeGame::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*  <!-- play game section --> */
+
+
+/* <!-- Exercises and quizzes section --> */
+.quiz{
+    background-image: url(w3Backgroung.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 80px 0px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+.quiz h2{
+    font-size: 45px;
+    font-weight: 700px;
+    margin: 15px 0px;
+}
+.quiz h4{
+    font-size: 25px;
+    font-weight: 400px;
+    margin: 15px 0px;
+}
+.qebox{
+    padding: 0px 8px;
+    margin: 18px 0px;
+    
+
+}
+.exercises, .quizzes{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    padding: 70px 50px;
+    opacity: 0.97;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.box{
+    float: left;
+    width: 50%; 
+
+}
+
+.qebox::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.quizzes{
+    background-color: #FFF4A3!important;
+    color: black!important;
+
+
+}
+
+.exercises{
+    background-color: #04AA6D!important;
+}
+
+/* <!-- Exercises and quizzes section --> */
+
+/* Sachin */
+.setimage{
     background-color: #E7E9EB;
-    width: 100%;
-    height: 800px;
+    height: 600px;
 }
-.image img{
-    width: 70%;
-    margin: 16px 0 20px 0;
+.setimage h3{
+    text-align: center;
+}
+.setimage img{
     display: block;
     margin: auto;
 }
-.btn{
+.setimage h1{
+    margin: 0;
+}
+.setimage .btn{
     text-decoration: none;
-    background-color: #282A35;
-    color: white;
-    font-size: 18px;
     display: block;
     margin: auto;
     text-align: center;
     width: 300px;
     border-radius: 25px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.getstarted{
-    width: 100%;
-    height: 400px;
-    background-color: #282A35;
-}
-.getstarted h1{
-    color: #FFC0C7;
-    font-size: 50px;
-    padding: 30px;
-}
-.getstarted p{
- color: #FFC0C7;
- font-size: 40px;
- padding: 30px;
-}
-.getstarted .button{
-    width: 200px;
-    text-decoration: none;
-    background-color: #4CAF50;
     color: white;
+    background-color: #282A35;
+    padding: 20px;
+}
+.kickstart{
+    background-color: #282A35;
+    color: pink;
+    height: 600px;
+    position: relative;
+}
+.kickstart .btn{
+    text-decoration: none;
+    color: white;
+    background-color: #04AA6D;
     border-radius: 25px;
-    display: block;
-    text-align: center;
-    padding: 25px;
-   
+    padding: 15px;
+    position: absolute;
+    
+    top: 30%;
+}
+.kickstart h1, .btn{
+    margin-left:15px;
 }
 .foot::after{
     content: "";
