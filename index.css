@@ -7,6 +7,87 @@
 *, *:before, *:after {
     box-sizing: inherit;
 }
+/* Sachin */
+.image h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 30px;
+}
+.image h4{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.image{
+    background-color: #E7E9EB;
+    width: 100%;
+    height: 800px;
+}
+.image img{
+    width: 70%;
+    margin: 16px 0 20px 0;
+    display: block;
+    margin: auto;
+}
+.btn{
+    text-decoration: none;
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.getstarted{
+    width: 100%;
+    height: 400px;
+    background-color: #282A35;
+}
+.getstarted h1{
+    color: #FFC0C7;
+    font-size: 50px;
+    padding: 30px;
+}
+.getstarted p{
+ color: #FFC0C7;
+ font-size: 40px;
+ padding: 30px;
+}
+.getstarted .button{
+    width: 200px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+    padding: 25px;
+   
+}
+.foot::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:767px) {
+    .foot{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media screen and (max-width:480px) {
+    .foot{
+        width: 100%;
+        height: 200px;
+    }
+}
+/* Sachin */
 div {
     display: block;
 }
