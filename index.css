@@ -7,6 +7,247 @@
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.navbar{
+    background-color: white;
+    padding: 0px 16px 0px 12px;     
+}
+
+/* W3SCHOOL ICON */
+
+.navbar .menu li{
+    padding: 7px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+
+span{
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin-left: 3px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+    background-color: white;
+}
+
+.navbar a:hover{
+    background-color: #04AA6D;
+    color: white;
+
+    
+}
+
+.navbar li{
+   display: inline-block;
+   padding: 8px 16px;  
+}
+
+.menu{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 24px 16px;
+    
+    
+}
+
+.fa-caret-down:hover{
+    color: white;
+}
+
+/* Navbar second part Icon */
+
+
+.fa-circle-half-stroke{
+    padding-left: 55px;
+}
+
+.fa-caret-down:hover{
+    background-color: #04AA6D  !important;
+}
+i{
+    color: #000000;
+    padding: 5px;
+    
+}
+i:hover{
+    background-color: white;
+    color: #04AA6D;
+}
+
+.round-button{
+    padding-left: 20px !important;
+}
+
+.round-button:hover{
+    background-color: #04AA6D !important;
+    color: #FFFFFF;
+}
+
+.round-paid{
+    border-radius: 25px;
+    padding: 9px 16px !important;
+    width: auto;
+    padding-right: 20px;
+    
+}
+
+.round-paid:hover{
+        color: #FFFFFF;
+}
+.round-log-in{
+    border-radius: 25px;
+    padding: 8px 40px !important;
+    padding-right: 30px !important;
+    width: 20px !important; 
+    background-color: #04AA6D; 
+    color: #FFFFFF !important;
+    text-align: center;
+    
+}
+
+.round-log-in:hover{
+    
+    background-color: #4ab48d !important;
+}
+
+.navbar::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+@media(max-width:400px){
+    .menu{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.dropdown a{
+    display: block;
+    padding: 10px;
+}
+
+/* Section Main */
+
+.content{
+    background-color: #282A35;
+    height: 568px;
+    background-size: contain;
+    padding: 90px;
+    padding-bottom: 90px;
+}
+
+.main{
+    padding: 0px 9px;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 70px;
+    
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 2px 0 -20px 0 !important;
+    padding-bottom: 3px;  
+}
+
+.main h3{
+    color: #FFC0C7;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; 
+    margin-top: 30px!important;
+    padding-top: 4px;
+    padding-bottom: 5px; 
+}
+
+
+/* Form */
+
+.form1{
+    width: 520px;
+    margin: auto;
+
+}
+
+form{
+    max-width: 600px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+  
+}
+
+form input[type=text]{
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    float: left;
+    width: 80%;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    background: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-right: 1px solid #04AA6D;
+    
+}
+
+form button{
+    border-radius: 25px;
+    float: left;
+    width: 20%;
+    padding: 13px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-left: none;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form button i{
+    padding: 1px !important;
+}
+
+.main a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    text-align: center;
+    padding-top: 35px;
+       
+}
+
+.main a:hover{
+    color: #41c779;
+}
+
 /* Sachin */
 .image h1{
     text-align: center;
