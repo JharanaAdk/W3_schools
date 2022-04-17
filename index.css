@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
@@ -10,13 +9,10 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-/* Vandana */
 
 .navbar{
     background-color: white;
@@ -239,7 +235,7 @@ form button{
     border-bottom-left-radius: 0;
 }
 
-.button-first i{
+form button i{
     padding: 1px !important;
 }
 
@@ -420,8 +416,6 @@ img:hover{
 .setimage img{
     display: block;
     margin: auto;
-    width: 70%;
-    
 }
 .setimage h1{
     margin: 0;
