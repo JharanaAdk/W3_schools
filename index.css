@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+/* Vandana */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
 *{
     padding: 0px;
@@ -255,9 +258,9 @@ form button{
     color: #41c779;
 }
 
-/* Vandana */
 
-/* Sachin */
+
+/*  <!-- color picker section --> */
 
 .con{
     background-color: #F3ECEA;
