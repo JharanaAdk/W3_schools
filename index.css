@@ -413,6 +413,8 @@ img:hover{
 .setimage img{
     display: block;
     margin: auto;
+    width: 70%;
+    
 }
 .setimage h1{
     margin: 0;
