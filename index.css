@@ -680,6 +680,7 @@ background-color: #ebd9d4;
 .setimage h1{
     text-align: center;
     font-size: 40px;
+    margin-top: 0px;
     
 }
 .setimage h3{
@@ -712,6 +713,7 @@ background-color: #ebd9d4;
     font-size: 40px;
     color: pink;
     margin-left: 20px;
+    margin-top: 0px;
 }
 .kickstart h3{
     font-size: 20px;
